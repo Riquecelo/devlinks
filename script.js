@@ -8,7 +8,6 @@ function toogleMode(){
     /* substituir a imagem
     if (body.classList.contains("light")) {
 
-
     } else {
 
     }*/
