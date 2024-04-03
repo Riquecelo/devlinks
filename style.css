@@ -5,3 +5,31 @@
     list-style: none;
     text-decoration: none;
 }
+
+body{
+    background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
+    height: 100vh;
+}
+
+#main{
+    width: 100%;
+    color:#ffffff;
+    font-family: Inter, sans-serif;
+    padding: 0 24px;
+}
+
+#profile{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#profile img{
+    width: 112px;
+    height: 112px;
+    border: 2px solid #ffffff50;
+    border-radius: 50%;
+}
