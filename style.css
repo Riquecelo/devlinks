@@ -13,9 +13,11 @@ body{
 
 #main{
     width: 100%;
+    max-width: 588px;
+    margin: 0 auto;
     color:#ffffff;
     font-family: Inter, sans-serif;
-    padding: 0 24px;
+    padding: 30px 24px 20px;
 }
 
 #profile{
@@ -82,4 +84,19 @@ body{
     color: #ffffff;
     margin: 8px;
 
+}
+
+footer{
+    padding-top: 20px;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+}
+footer a{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+@media (min-width: 700px) {
+    
 }
